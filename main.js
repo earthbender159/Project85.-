@@ -82,7 +82,7 @@ function down()
 {
 	//Define function to move the car downward
 	if(greencar_y <=500){
-		rover_y = rover_y + 10; 
+		greencar_y = greencar_y + 10; 
 		console.log(greencar_x, greencar_y); 
 		uploadBackground(); 
 		uploadgreencar(); 
